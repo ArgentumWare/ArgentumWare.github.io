@@ -40,8 +40,13 @@
   display: block;
   list-style-type: none;
 }
+
 .dropdown-content li{
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.dropdown-content li a{
+  text-align: center;
 }

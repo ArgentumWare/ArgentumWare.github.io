@@ -27,6 +27,7 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  text-align: center;
 }
 
 .dropdown:hover .dropdown-content {

@@ -10,6 +10,25 @@
             <h1>Place an order!</h1>
         </div>
         <form action="/PHP/order.php">
+            <div style="overflow: hidden;">
+                <p style="float: left;">Full Name</p>
+                <p style="float: left;" class="asterisk">*</p>
+                <p style="float: left;">:</p>
+            </div>
+            <input type-="text" name="Name"><br>
+            <div style="overflow:hidden">
+                <p style="float: left;">Email</p>
+                <p style="float: left;" class="asterisk">*</p>
+                <p style="float: left;">:</p>
+            </div>
+            <input type="text" name="Email"><br>
+            <div style="overflow:hidden">
+                <p style="float: left;">Description of Order:</p>
+                <p style="float: left;" class="asterisk">*</p>
+                <p style="float: left;">:</p>
+            </div>
+            <input type="text" name="Description"><br>
         </form>
+        <p class="bottomPage">*Required.</p>
     </body>
 </html>

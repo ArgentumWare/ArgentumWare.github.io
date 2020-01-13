@@ -26,12 +26,11 @@
 
 .dropdown-content {
   transform: scaleY(0);
-  display: none;
+  display: block;
   background-color: seagreen;
 }
 .dropdown:hover .dropdown-content {
   transform: scaleY(1);
-  display: block;
   transition: 0.3s;
 }
 

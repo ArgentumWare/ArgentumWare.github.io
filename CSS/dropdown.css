@@ -2,6 +2,8 @@
   position: relative;
   display: block;
   width: 10%;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-style: solid;
   border-width: medium;
 }

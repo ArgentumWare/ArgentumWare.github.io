@@ -9,7 +9,7 @@
         <div class="typewriter">
             <h1>Place an order!</h1>
         </div>
-        <form action="/PHP/order.php">
+        <form method="post" action="/PHP/order.php">
             <div style="overflow: hidden;">
                 <p style="float: left;">Full Name</p>
                 <p style="float: left;" class="asterisk">*</p>
@@ -28,6 +28,7 @@
                 <p style="float: left;">:</p>
             </div>
             <input type="text" name="Description"><br>
+            <input type="submit" name="submit" value="Submit Order">
         </form>
         <p class="bottomPage">*Required.</p>
     </body>

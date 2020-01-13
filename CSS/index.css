@@ -40,4 +40,5 @@
   list-style-type: none;
 }
 .dropdown-content li{
+    text-align: center;
 }

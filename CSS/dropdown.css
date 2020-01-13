@@ -28,22 +28,18 @@
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  margin: auto;
 }
 
 
 .dropdown-content ul{
-  margin: auto;
   text-align: center;
   list-style-type: none;
 }
 .dropdown-content li{
-  margin: auto;
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 .dropdown-content li a{
-  margin: auto;
   text-align: center;
 }

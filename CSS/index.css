@@ -7,3 +7,6 @@ h1 {
   font-family: "OCR A Std";
 }
 body {background-color: seagreen;}
+h3.serif {
+    font-family: "Times New Roman", Times, serif;
+}

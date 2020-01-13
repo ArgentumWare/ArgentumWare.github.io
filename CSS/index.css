@@ -1,16 +1,41 @@
 @import url(//db.onlinewebfonts.com/c/6a9c6944fe8451dd397fe9d0763a4c88?family=OCR+A+Std);
+
 @font-face {font-family: "OCR A Std"; src: url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.eot"); src: url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.svg#OCR A Std") format("svg"); }
+
 h1 {
   text-align: center;
   padding: 0;
   color: palegreen;
   font-family: "OCR A Std";
 }
+
 p {
   color: palegreen;
   font-family: "OCR A Std";
 }
+
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left p\h3 {
+  animation: slide-left 4s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 body {background-color: seagreen;}
+
 h3 {
   color: palegreen;
   font-family: "OCR A Std";

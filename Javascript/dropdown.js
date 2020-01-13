@@ -8,5 +8,5 @@ document.getElementByID("dropdown1").onmouseout  = function() {
 */
 var list = document.getElementsByClassName("myButton");
 for (var i = 0; i < list.length; i++) {
-    list[i].onmouseover = function(){alert("yay!")};
+    list[i].onmouseover = function(){alert("yay!");};
 }

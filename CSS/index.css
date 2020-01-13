@@ -6,7 +6,12 @@ h1 {
   color: palegreen;
   font-family: "OCR A Std";
 }
+p {
+  color: palegreen;
+  font-family: "OCR A Std";
+}
 body {background-color: seagreen;}
 h3.serif {
-    font-family: "Times New Roman", Times, serif;
+  color: palegreen;
+  font-family: "OCR A Std";
 }

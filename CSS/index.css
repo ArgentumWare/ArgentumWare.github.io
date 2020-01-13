@@ -1,55 +1,9 @@
-.dropdown {
-  position: relative;
-  display: inline-block;
-  max-width: 160px;
-}
-
-.dropdown span {
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
-  background-color: #f9f9f9;
-  min-width: 160px;
-  padding: 12px 16px;
-  z-index: 3;
-}
-
-.dropdown:hover span {
-  box-shadow: 4px 8px 8px 0px rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-.dropdown-content {
-  display: none;
-  background-color: #f9f9f9;
-  padding: 0px 0px;
-  min-width: 130px;
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
-  z-index: 2;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+@import url(//db.onlinewebfonts.com/c/6a9c6944fe8451dd397fe9d0763a4c88?family=OCR+A+Std);
+@font-face {font-family: "OCR A Std"; src: url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.eot"); src: url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a9c6944fe8451dd397fe9d0763a4c88.svg#OCR A Std") format("svg"); }
+h1 {
   text-align: center;
+  padding: 0;
+  color: palegreen;
+  font-family: "OCR A Std";
 }
-
-.dropdown:hover .dropdown-content {
-  text-align: center;
-  box-shadow: 4px 8px 8px 0px rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 100%;
-}
-
-.dropdown-content ul{
-  text-align: center;
-  display: block;
-  list-style-type: none;
-}
-
-.dropdown-content li{
-  align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-.dropdown-content li a{
-  text-align: center;
-}
+body {background-color: seagreen;}

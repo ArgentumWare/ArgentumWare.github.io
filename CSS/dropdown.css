@@ -34,6 +34,7 @@
 
 .dropdown-content ul{
   list-style-type: none;
+  padding-left:0px;
 }
 .dropdown-content li{
   padding-top: 12px;

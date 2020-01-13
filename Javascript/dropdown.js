@@ -6,6 +6,7 @@ document.getElementByID("dropdown1").onmouseout  = function() {
   alert("Out!");
 }
 */
+console.log("started");
 var list = document.getElementsByClassName("dropdown");
 console.log("got elements");
 for (var i = 0; i < list.length; i++) {

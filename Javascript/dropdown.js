@@ -1,6 +1,6 @@
-document.getElementByClassName("dropdown")[0].onmouseover = function() {
+document.getElementByID("dropdown1").onmouseover = function() {
   alert("Hover!");
 }
-document.getElementByClassName("dropdown")[0].onmouseout  = function() {
+document.getElementByID("dropdown1")[0].onmouseout  = function() {
   alert("Out!");
 }

@@ -1,6 +1,6 @@
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: block;
   min-width: 10%;
   border-style: solid;
   border-width: medium;
@@ -8,15 +8,10 @@
 
 .dropdown span {
   align: center;
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+  /*box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);*/
   background-color: seagreen;
-  width: 100%;
-  z-index: 3;
   border-top-style: solid;
   border-width: medium;
-}
-
-.dropdown span {
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -32,7 +27,6 @@
   background-color: seagreen;
   padding: 0px 0px;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
-  z-index: 2;
 }
 
 .dropdown:hover .dropdown-content {
